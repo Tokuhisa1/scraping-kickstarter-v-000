@@ -25,4 +25,6 @@ def create_project_hash
   projects
 end
 
-puts create_project_hash
+create_project_hash.each do |project|
+  puts project
+end
